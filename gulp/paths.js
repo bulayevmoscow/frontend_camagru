@@ -7,7 +7,12 @@ const paths = {
     css: src_path + 'styles/**/*.css',
     js: src_path + 'scripts/**/*.js'
   },
-  dest: dest_path
+  dest: {
+    html: dest_path + '**/*.html',
+    sass: dest_path + 'styles/**/*.sass',
+    css: dest_path + 'styles/**/*.css',
+    js: dest_path + 'scripts/**/*.js'
+  }
 }
 
 module.exports = {
