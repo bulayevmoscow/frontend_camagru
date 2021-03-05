@@ -8,10 +8,10 @@ const paths = {
     js: src_path + 'scripts/**/*.js'
   },
   dest: {
-    html: dest_path + '**/*.html',
-    sass: dest_path + 'styles/**/*.sass',
-    css: dest_path + 'styles/**/*.css',
-    js: dest_path + 'scripts/**/*.js'
+    html: dest_path,
+    sass: dest_path + 'styles/',
+    css: dest_path + 'styles/',
+    js: dest_path + 'scripts/'
   }
 }
 
